@@ -1,4 +1,4 @@
-# CP2_Edge
+# CP2 Edge Computing
 Turma: 1ESPH Integrantes: Arthur Fellipe, Eduardo Pires, Leonardo Munhoz
 
 LINK DO WOKWI: https://wokwi.com/projects/395243571270880257
@@ -16,15 +16,14 @@ Display:
 - LED verde
 - LED amarelo
 - LED vermelho
-- Buzzer
 
 Conexão:
 - Placa Arduino
-- Tábua de ensaio
-- Fios de ligação em ponte
+- Proto Board
+- Cabos Jumper
 
 ## Montagem
-1 - Coloque o sensor DHT22 e o sensor de luz na placa de ensaio.
+1 - Coloque o sensor DHT22 e o sensor de luz na proto board.
 
 2 - Conecte o sensor DHT22 ao Arduino da seguinte forma:
 - VCC para 5V
@@ -47,7 +46,7 @@ Conexão:
 - D7 ao DPIN 7
 - LE para 5V
 
-5 - Conecte os LEDs e a campainha ao Arduino da seguinte forma:
+5 - Conecte os LEDs e o buzzer ao Arduino da seguinte forma:
 - LED verde:
 Perna longa (ânodo) para D4 (LED verde)
 Perna curta (cátodo) para um resistor de 220 ohms e depois para GND
@@ -63,10 +62,11 @@ Outra perna para um resistor de 220 ohms e depois para GND
 
 6 - Alimente a placa Arduino usando uma fonte de alimentação apropriada (USB, bateria ou adaptador de energia).
 
-7 - Carregue o código fornecido na placa Arduino.
+7 - Carregue o código fornecido.
 
 ![image](https://github.com/tultaa/CP2_Edge/assets/78042666/f53b9ec3-a25b-4f18-8981-1d2c9fefdd56)
 
   
 Agora, você deve ter um circuito funcional que exibe informações de temperatura, umidade e nível de luz no LCD, junto com alertas de LED e campainha com base no nível de luz.
+
 O código também utiliza diversas variáveis ​​para armazenar dados, como temperatura, umidade e valores de luz, bem como variáveis ​​para controlar o tempo do display e dos LEDs, o código estará aqui no github, na pasta cp2edge.
